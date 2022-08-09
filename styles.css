@@ -76,8 +76,8 @@ html {
   font-weight: 600;
   font-size: 5em;
   text-align: center;
-  padding-top: 7.5em;
-  padding-right: .8em; 
+  padding-top: 31%;
+  padding-right: 5%; 
   color: #373a36;
 }
 
@@ -93,6 +93,7 @@ html {
 #about-me {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 
 #about-me #background-image {
@@ -107,8 +108,8 @@ html {
 
 #about-me h1 {
   position: relative;
-  margin-top: -15em; 
-  margin-left: 11.5em;   
+  margin-top: -40%; 
+  margin-left: 27%;   
   font-size: 2.8em; 
   color: #373a36;
   text-decoration: underline;
@@ -117,9 +118,9 @@ html {
 }
 
 #about-me p {
-  width: 30em;
-  margin-top: 1em;
-  margin-left: 10em; 
+  width: 35%;
+  margin-top: 2%;
+  margin-left: 13%;  
   font-size: 1.5em; 
   position: relative;
   font-family: 'Inter', sans-serif;
@@ -127,10 +128,11 @@ html {
 }
 
 #about-me img {
-  position: absolute;
+  position: relative;
   width: 20em;
-  margin-top: -26em; 
-  margin-left: 75em;  
+  margin-top: -22%; 
+  margin-left: 60%;  
+  margin-bottom: auto;
 }
 
 #projects h1 {
